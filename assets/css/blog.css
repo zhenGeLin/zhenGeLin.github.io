@@ -264,3 +264,91 @@ h1, h2, h3, h4, h5, h6,
 .blog-toc-nav {
     scrollbar-width: none;
 }
+
+/* Research/project write-up blocks */
+.project-lede {
+    font-size: 1.08rem;
+    color: #343a40;
+    margin-bottom: 1.25rem;
+}
+
+.project-actions {
+    margin: 1.25rem 0 1.75rem;
+}
+
+.project-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.85rem;
+    margin: 1.35rem 0;
+}
+
+.project-summary-card {
+    padding: 0.95rem 1rem;
+    border: 1px solid #e9ecef;
+    border-radius: 0.5rem;
+    background: #f8f9fa;
+}
+
+.project-summary-card > strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: #6c757d;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.project-summary-card > span {
+    display: block;
+    color: #212529;
+    line-height: 1.45;
+}
+
+.research-callout {
+    margin: 1.35rem 0;
+    padding: 1rem 1.1rem;
+    border-left: 4px solid #0d6efd;
+    background: #f8fbff;
+    color: #343a40;
+}
+
+.research-figure {
+    margin: 1.6rem 0;
+    overflow: hidden;
+    border: 1px solid #e9ecef;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.research-figure img {
+    display: block;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+.research-figure figcaption {
+    padding: 0.8rem 1rem;
+    border-top: 1px solid #f1f3f5;
+    color: #6c757d;
+    font-size: 0.92rem;
+    line-height: 1.55;
+}
+
+.research-formula-note {
+    margin-top: -0.65rem;
+    color: #6c757d;
+    font-size: 0.95rem;
+}
+
+.codeword-inline {
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .project-summary-grid {
+        grid-template-columns: 1fr;
+    }
+}

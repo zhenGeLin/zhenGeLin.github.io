@@ -31,12 +31,24 @@ $(function () {
         "itemSelector": ".grid-item",
         "columnWidth": ".grid-sizer"
     });
+    var layoutMasonry = function () {
+        $grid.masonry('layout');
+    };
+
     // layout Masonry after each image loads
     $grid.imagesLoaded().progress(function () {
-        $grid.masonry('layout');
+        layoutMasonry();
     });
 
     $(".lazy").on("load", function () {
-        $grid.masonry('layout');
+        layoutMasonry();
+    });
+
+    $(".showcase-video").on("loadedmetadata loadeddata canplay", function () {
+        layoutMasonry();
+    });
+
+    $(window).on("load resize", function () {
+        layoutMasonry();
     });
 })

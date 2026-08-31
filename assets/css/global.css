@@ -42,6 +42,35 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 400;
 }
 
+.profile-interest-icons {
+    display: inline-block;
+    font-size: 1.35rem;
+    letter-spacing: 0;
+    margin-top: 0.2rem;
+}
+
+.profile-portrait {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center 42%;
+}
+
+.profile-portrait-main {
+    width: 200px;
+    height: 200px;
+}
+
+.profile-portrait-sidebar {
+    width: 100%;
+}
+
+.profile-portrait-mobile {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    object-position: center 42%;
+}
+
 .navbar {
     background-color: rgba(255, 255, 255, 0.6) !important;
     backdrop-filter: blur(16px);
@@ -90,4 +119,120 @@ div.lazy {
 
 .email-text {
     font-family: Source Code Pro, monospace;
+}
+
+.profile-entry-list {
+    display: grid;
+    gap: 0.9rem;
+}
+
+.profile-entry {
+    display: block;
+}
+
+.profile-entry-logo {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    margin-bottom: 0.35rem;
+}
+
+.profile-entry-logo img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 180px;
+    max-height: 42px;
+    object-fit: contain;
+}
+
+.profile-entry-title {
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.showcase-header {
+    padding: 0.5rem 0 1.25rem;
+}
+
+.showcase-header h1 {
+    margin-bottom: 0.25rem;
+}
+
+.showcase-header p {
+    max-width: 720px;
+    color: #6c757d;
+    margin-bottom: 0.75rem;
+}
+
+.showcase-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+}
+
+.showcase-categories a {
+    border: 1px solid rgba(11, 31, 63, 0.14);
+    border-radius: 999px;
+    color: #24324a;
+    font-size: 0.9rem;
+    line-height: 1;
+    padding: 0.45rem 0.7rem;
+    text-decoration: none;
+    background: #fff;
+}
+
+.showcase-categories a:hover {
+    border-color: rgba(11, 31, 63, 0.35);
+    color: #0b1f3f;
+}
+
+.showcase-group-title {
+    font-size: 1.35rem;
+    margin: 1.4rem 0 0.55rem;
+}
+
+.showcase-photo-card {
+    overflow: hidden;
+}
+
+.showcase-media {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #111;
+}
+
+.showcase-video {
+    height: clamp(220px, 28vw, 360px);
+    max-height: none;
+    object-fit: contain;
+}
+
+.showcase-photo-placeholder {
+    aspect-ratio: 4 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:
+        linear-gradient(135deg, rgba(11, 31, 63, 0.08), rgba(57, 181, 191, 0.12)),
+        #f7f8fa;
+    color: #4d5968;
+    font-weight: 700;
+    text-align: center;
+}
+
+.showcase-photo-copy {
+    padding: 1rem;
+}
+
+.showcase-photo-copy h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.35rem;
+}
+
+.showcase-photo-copy p {
+    color: #6c757d;
+    font-size: 0.95rem;
+    margin-bottom: 0;
 }

@@ -31,3 +31,6 @@ gem "wdm", "~> 0.2" if Gem.win_platform?
 
 gem "webrick", "~> 1.7"
 gem "kramdown-parser-gfm"
+
+# Keep local preview compatible with the system Ruby 2.6 on older macOS installs.
+gem "ffi", "~> 1.15.5"
