@@ -6,9 +6,9 @@ date: 2026-08-30 00:01:04 +0800
 ---
 
 <article class="showcase-photo-card">
-    <img class="showcase-media" src="{{ '/assets/images/showcase/me-in-team/team-radcliffe-camera.jpg' | relative_url }}" alt="Zhenglin and friends outside the Radcliffe Camera">
+    <img class="showcase-media" src="{{ '/assets/images/showcase/me-in-team/team-radcliffe-camera.jpg' | relative_url }}" alt="Zhenglin celebrating graduation with members of the Vectorial Optics and Photonics Group">
     <div class="showcase-photo-copy">
-        <h3>Outside the Radcliffe Camera</h3>
-        <p>Graduation day with friends in Oxford.</p>
+        <h3>Graduation with VOP</h3>
+        <p>Members of the Vectorial Optics and Photonics Group came to celebrate my graduation.</p>
     </div>
 </article>

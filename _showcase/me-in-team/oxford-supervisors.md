@@ -6,9 +6,9 @@ date: 2026-08-30 00:01:05 +0800
 ---
 
 <article class="showcase-photo-card">
-    <img class="showcase-media" src="{{ '/assets/images/showcase/me-in-team/team-oxford-supervisors.jpg' | relative_url }}" alt="Zhenglin with supervisors and colleagues in Oxford">
+    <img class="showcase-media" src="{{ '/assets/images/showcase/me-in-team/team-oxford-supervisors.jpg' | relative_url }}" alt="Zhenglin with his two Mansfield College mentors">
     <div class="showcase-photo-copy">
-        <h3>Graduation Day at Oxford</h3>
-        <p>Celebrating graduation with supervisors and colleagues.</p>
+        <h3>Mansfield College Mentors</h3>
+        <p>A graduation-day photo with my two Mansfield College mentors.</p>
     </div>
 </article>
