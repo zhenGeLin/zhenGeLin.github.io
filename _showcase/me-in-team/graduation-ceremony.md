@@ -1,7 +1,7 @@
 ---
 show: true
 group: Me In Team
-width: 6
+width: 4
 date: 2026-08-30 00:01:06 +0800
 ---
 

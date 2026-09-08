@@ -1,8 +1,8 @@
 ---
 show: true
 group: Me In Team
-width: 6
-date: 2026-08-30 00:01:01 +0800
+width: 4
+date: 2026-08-30 00:01:04 +0800
 ---
 
 <article class="showcase-photo-card">

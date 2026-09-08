@@ -18,9 +18,10 @@ container_class: container-xl
 </header>
 
 {% for group in cards_by_group %}
-<h2 class="showcase-group-title" id="{{ group.name | slugify }}">{{ group.name }}</h2>
-<div class="row grid showcase-grid mb-4">
-    <div class="grid-sizer col-1"></div>
+{% assign group_slug = group.name | slugify %}
+<h2 class="showcase-group-title" id="{{ group_slug }}">{{ group.name }}</h2>
+<div class="row showcase-grid {% if group_slug == 'me-in-team' %}showcase-grid-team{% else %}grid{% endif %} mb-4">
+    {% unless group_slug == 'me-in-team' %}<div class="grid-sizer col-1"></div>{% endunless %}
     {% for item in group.items %}
     {% if item.width >= 6 -%}
         {%- assign width_sm = 12 -%}

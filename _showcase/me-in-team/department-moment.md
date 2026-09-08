@@ -2,7 +2,7 @@
 show: true
 group: Me In Team
 width: 4
-date: 2026-08-30 00:01:02 +0800
+date: 2026-08-30 00:01:01 +0800
 ---
 
 <article class="showcase-photo-card">
