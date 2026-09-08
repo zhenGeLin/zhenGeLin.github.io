@@ -16,10 +16,13 @@ github: zhenGeLin
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am an MEng Engineering Science student at the University of Oxford, working across optics, photonics, structured light, waveguide optics, polarisation control, and numerical simulation.
+    I recently completed my MEng in Engineering Science at the University of Oxford, where my work spanned optics, photonics, waveguide optics, polarisation control, structured light, and numerical simulation.
   </p>
   <p>
-    My current interests include femtosecond-laser-written directional couplers for polarimetry, generalized skyrmions in dielectric waveguides, and full vectorial control of arbitrary optical fields.
+    My research experience includes femtosecond-laser-written waveguides for polarimetry, optical skyrmions in waveguide systems, and full vectorial control of arbitrary optical fields.
+  </p>
+  <p>
+    My current research direction is intelligent photonics for AI-era information processing, with a particular interest in silicon photonics, integrated photonics, photonic computing, optical interconnects, and photonic-electronic systems for scalable computation, communication, and sensing.
   </p>
 
 portrait_url: /assets/images/photos/zhenglin-portrait.png
