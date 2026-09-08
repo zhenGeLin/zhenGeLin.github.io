@@ -16,13 +16,13 @@ github: zhenGeLin
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I recently completed my MEng in Engineering Science at the University of Oxford, where my work spanned optics, photonics, waveguide optics, polarisation control, structured light, and numerical simulation.
+    I recently completed my MEng in Engineering Science at the University of Oxford, with research experience across optical engineering, waveguide optics, polarisation control, structured light, and numerical simulation.
   </p>
   <p>
-    My research experience includes femtosecond-laser-written waveguides for polarimetry, optical skyrmions in waveguide systems, and full vectorial control of arbitrary optical fields.
+    My previous work has involved femtosecond-laser-written waveguides for polarimetry, optical skyrmions in waveguide systems, and full vectorial control of arbitrary optical fields using cascaded spatial light modulators.
   </p>
   <p>
-    My current research direction is intelligent photonics for AI-era information processing, with a particular interest in silicon photonics, integrated photonics, photonic computing, optical interconnects, and photonic-electronic systems for scalable computation, communication, and sensing.
+    Looking forward, I hope to devote my research to optical and photonic systems that can become part of the physical foundation of future intelligent machines. As AI systems continue to scale and move into the physical world, I believe that progress will depend not only on algorithms, but also on new ways to sense, transmit, encode, and process information at the hardware level. I am therefore broadly interested in computational optics, intelligent sensing, integrated photonics, nanophotonics, and photonic information processing, with the long-term aim of contributing to technologies that can reshape how machines perceive, communicate, and compute.
   </p>
 
 portrait_url: /assets/images/photos/zhenglin-portrait.png
