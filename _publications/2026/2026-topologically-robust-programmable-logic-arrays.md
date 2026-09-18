@@ -3,7 +3,6 @@ title: "Topologically robust programmable processing arrays using light and matt
 date: 2026-08-26 00:01:00 +0800
 selected: true
 pub: "Nature Communications"
-pub_pre: "arXiv:2602.01455; revised manuscript received by "
 pub_date: "2026"
 abstract: >-
   Explores topologically robust programmable processing arrays based on skyrmion structures in light and matter.
