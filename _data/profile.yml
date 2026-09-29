@@ -38,6 +38,12 @@ education:
   date: Oct. 2022 - Jul. 2026
 
 experience:
+- name: Agency for Science, Technology and Research (A*STAR), Singapore
+  url: https://www.a-star.edu.sg/
+  logo: /assets/images/badges/astar-logo.png
+  position: >-
+    Research Assistant, supervised by Prof. Bowei Dong; programmable on-chip mode generation and optical skyrmion generation
+  date: Sep. 2026 - Present
 - name: Vectorial Optics and Photonics Group, University of Oxford
   url: https://voplab.com/peoplelist/#Zhenglin
   logo: /assets/images/badges/voplab-logo.png
