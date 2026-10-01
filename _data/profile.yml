@@ -42,7 +42,13 @@ experience:
   url: https://www.a-star.edu.sg/
   logo: /assets/images/badges/astar-logo.png
   position: >-
-    Research Assistant, supervised by Prof. Bowei Dong; programmable on-chip mode generation and optical skyrmion generation
+    Research Assistant, supervised by Prof. Bowei Dong; programmable mode generation and full-Stokes measurement on chips
+  date: Sep. 2026 - Present
+- name: A*STAR Institute of Microelectronics (IME), Singapore
+  url: https://www.a-star.edu.sg/ime/
+  logo: /assets/images/badges/astar-logo.png
+  position: >-
+    Data Science Engineer for PDA (Photonics); Photonic Design Automation project
   date: Sep. 2026 - Present
 - name: Vectorial Optics and Photonics Group, University of Oxford
   url: https://voplab.com/peoplelist/#Zhenglin
