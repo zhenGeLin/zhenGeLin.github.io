@@ -5,6 +5,7 @@ selected: true
 pub: "Physical Review A"
 pub_pre: "Under review at "
 pub_date: "2026"
+pub_last: "— author response submitted"
 abstract: >-
   Studies robust transport of skyrmionic polarization textures in waveguides through topologically stabilizing modes.
 cover: /assets/images/covers/skyrmion-transport.png
