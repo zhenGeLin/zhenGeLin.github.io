@@ -3,7 +3,6 @@ title: "General in situ feedback control of cascaded liquid crystal spatial ligh
 date: 2026-01-15 00:01:00 +0800
 selected: true
 pub: "Laser & Photonics Reviews"
-pub_pre: "arXiv:2601.11405; under review at "
 pub_date: "2026"
 abstract: >-
   Develops an in situ feedback-control strategy for cascaded liquid-crystal spatial light modulators used in structured-field generation.
