@@ -7,7 +7,7 @@ positions:
 - name: <span class="profile-interest-icons" aria-label="Personal interests">🎸 🎾 🏓 📷 ⚽️</span>
 
 email: "lizhenglinwilliam@gmail.com"
-cv_link: /assets/pdf/ZhenglinCV.pdf
+cv_link: /assets/pdf/ZhenglinCV_with_website.pdf
 github: zhenGeLin
 # gscholar:
 # linkedin:
@@ -42,20 +42,26 @@ experience:
   url: https://www.a-star.edu.sg/
   logo: /assets/images/badges/astar-logo.png
   position: >-
-    Research Assistant, supervised by Prof. Bowei Dong; programmable mode generation and full-Stokes measurement on chips
+    Research Assistant, supervised by Prof. Bowei Dong; programmable full-vectorial fields on chip, optical skyrmion applications, and integrated photonic device design
   date: Sep. 2026 - Present
 - name: A*STAR Institute of Microelectronics (IME), Singapore
   url: https://www.a-star.edu.sg/ime/
   logo: /assets/images/badges/astar-logo.png
   position: >-
-    Data Science Engineer for PDA (Photonics); Photonic Design Automation project
+    Data Science Engineer for PDA (Photonics), supervised by Hancheng Liu; photonic design-automation workflow validation, PDK integration, and fabrication handoff
   date: Sep. 2026 - Present
 - name: Vectorial Optics and Photonics Group, University of Oxford
   url: https://voplab.com/peoplelist/#Zhenglin
   logo: /assets/images/badges/voplab-logo.png
   position: >-
-    Summer Research Intern; Fourth year project (4YP) student, supervised by Prof. Chao He, Prof. Patrick Salter, and Prof. Steven Morris
-  date: Jun. 2025 - Jul. 2026
+    Master Project: Optical Skyrmion in Fibre, supervised by Prof. Chao He
+  date: Oct. 2025 - Jul. 2026
+- name: Vectorial Optics and Photonics Group, University of Oxford
+  url: https://voplab.com/peoplelist/#Zhenglin
+  logo: /assets/images/badges/voplab-logo.png
+  position: >-
+    Summer Research Intern: Full Vectorial Control of Arbitrary Optical Fields, supervised by Prof. Patrick Salter and Prof. Chao He
+  date: Jun. 2025 - Aug. 2025
 - name: Dynamic Optics and Photonics Group, University of Oxford
   url: https://eng.ox.ac.uk/dop/people
   logo: /assets/images/badges/engineering-dept-only-logo.svg
