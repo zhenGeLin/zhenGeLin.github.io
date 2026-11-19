@@ -1,13 +1,13 @@
 <div class="row mt-3">
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4">
-                <div class="row" data-masonry='{"percentPosition": true }'>
+            <div class="card-body p-4 home-resume-card">
+                <div class="row home-credentials-row">
                     {% if site.data.profile.education %}
-                    <div class="col-lg-6">
-                        <div class="mx-2 my-1">
-                            <h6>Education</h6>
-                            <ul class="list-unstyled mb-1 profile-entry-list">
+                    <div class="col-lg-5 d-flex">
+                        <section class="home-credential-panel w-100" aria-labelledby="education-heading">
+                            <h6 id="education-heading">Education</h6>
+                            <ul class="list-unstyled mb-0 profile-entry-list">
                                 {% for item in site.data.profile.education %}
                                 <li class="profile-entry">
                                     {% if item.logo %}
@@ -30,61 +30,55 @@
                                 </li>
                                 {% endfor %}
                             </ul>
-                        </div>
-                    </div>
-                    {% endif %}
-
-                    {% if site.data.profile.experience %}
-                    <div class="col-lg-6">
-                        <div class="mx-2 my-1">
-                            <h6>Experience</h6>
-                            <ul class="list-unstyled mb-1 profile-entry-list">
-                                {% for item in site.data.profile.experience %}
-                                <li class="profile-entry">
-                                    {% if item.logo %}
-                                    <div class="profile-entry-logo">
-                                        <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}">
-                                    </div>
-                                    {% endif %}
-                                    <div class="profile-entry-body">
-                                        <div class="profile-entry-title">
-                                            {% if item.url %}
-                                            <a class="text-dark" target="_blank" href="{{ item.url }}">{{ item.name }}</a>
-                                            {% else %}
-                                            {{ item.name }}
-                                            {% endif %}
-                                        </div>
-                                        {% if item.dept %}<div class="small">{{ item.dept }}</div>{% endif %}
-                                        <div class="small">{{ item.position }}</div>
-                                        <div class="small text-muted"><em>{{ item.date }}</em></div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
+                        </section>
                     </div>
                     {% endif %}
 
                     {% if site.data.profile.awards %}
-                    <div class="col-lg-6">
-                        <div class="mx-2 my-1">
-                            <h6>Honors & Awards</h6>
-                            <ul class="list small pl-3 mb-1">
+                    <div class="col-lg-7 d-flex">
+                        <section class="home-credential-panel w-100" aria-labelledby="awards-heading">
+                            <h6 id="awards-heading">Honors & Awards</h6>
+                            <ul class="list-unstyled mb-0 home-award-list">
                                 {% for item in site.data.profile.awards %}
                                 <li>
-                                    <div class="d-flex">
-                                        <div>{{ item.name }}</div>
-                                        <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
-                                    </div>
+                                    <span>{{ item.name }}</span>
+                                    <span class="home-award-date">{{ item.date }}</span>
                                 </li>
                                 {% endfor %}
                             </ul>
-                        </div>
+                        </section>
                     </div>
                     {% endif %}
-
                 </div>
 
+                {% if site.data.profile.experience %}
+                <section class="home-experience-section" aria-labelledby="experience-heading">
+                    <h6 id="experience-heading">Experience</h6>
+                    <ul class="list-unstyled mb-0 home-experience-grid">
+                        {% for item in site.data.profile.experience %}
+                        <li class="profile-entry home-experience-item">
+                            {% if item.logo %}
+                            <div class="profile-entry-logo">
+                                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}">
+                            </div>
+                            {% endif %}
+                            <div class="profile-entry-body">
+                                <div class="profile-entry-title">
+                                    {% if item.url %}
+                                    <a class="text-dark" target="_blank" rel="noopener" href="{{ item.url }}">{{ item.name }}</a>
+                                    {% else %}
+                                    {{ item.name }}
+                                    {% endif %}
+                                </div>
+                                {% if item.dept %}<div class="small">{{ item.dept }}</div>{% endif %}
+                                <div class="small home-experience-role">{{ item.position }}</div>
+                                <div class="small text-muted home-experience-date"><em>{{ item.date }}</em></div>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </section>
+                {% endif %}
             </div>
         </div>
     </div>

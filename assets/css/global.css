@@ -151,6 +151,85 @@ div.lazy {
     line-height: 1.25;
 }
 
+.home-credentials-row {
+    row-gap: 1rem;
+}
+
+.home-credential-panel {
+    background: #f8f9fb;
+    border: 1px solid #eef0f3;
+    border-radius: 0.7rem;
+    padding: 1.1rem 1.2rem;
+}
+
+.home-credential-panel h6,
+.home-experience-section h6 {
+    margin-bottom: 1rem;
+}
+
+.home-award-list {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.home-award-list li {
+    align-items: start;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(0, 1fr) auto;
+    line-height: 1.35;
+}
+
+.home-award-date {
+    color: #6c757d;
+    font-size: 0.875rem;
+    font-style: italic;
+    white-space: nowrap;
+}
+
+.home-experience-section {
+    border-top: 1px solid #e8ebef;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.home-experience-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.home-experience-item {
+    background: #f8f9fb;
+    border: 1px solid #eef0f3;
+    border-radius: 0.7rem;
+    min-width: 0;
+    padding: 1rem 1.1rem;
+}
+
+.home-experience-item:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+}
+
+.home-experience-role {
+    line-height: 1.45;
+    margin-top: 0.35rem;
+}
+
+.home-experience-date {
+    margin-top: 0.45rem;
+}
+
+@media (max-width: 991.98px) {
+    .home-experience-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .home-experience-item:last-child:nth-child(odd) {
+        grid-column: auto;
+    }
+}
+
 .showcase-header {
     padding: 0.5rem 0 1.25rem;
 }
@@ -269,6 +348,15 @@ div.lazy {
 }
 
 @media (max-width: 767.98px) {
+    .home-resume-card {
+        padding: 1.25rem !important;
+    }
+
+    .home-award-list li {
+        gap: 0.35rem;
+        grid-template-columns: 1fr;
+    }
+
     .showcase-grid-team {
         grid-template-columns: 1fr;
     }
