@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 title: "Full Vectorial Control of Arbitrary Optical Fields"
-date: 2026-07-01
+date: 2025-07-01
 tags:
   - Structured Light
   - SLM
