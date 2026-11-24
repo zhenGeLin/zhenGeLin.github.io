@@ -1,11 +1,9 @@
 ---
 title: "Robust skyrmion transport in waveguides via topologically stabilizing modes"
-date: 2026-02-15 00:01:00 +0800
+date: 2026-11-23 00:01:00 +0800
 selected: true
 pub: "Physical Review A"
-pub_pre: "Under review at "
 pub_date: "2026"
-pub_last: "— author response submitted"
 abstract: >-
   Studies robust transport of skyrmionic polarization textures in waveguides through topologically stabilizing modes.
 cover: /assets/images/covers/skyrmion-transport.png
@@ -14,8 +12,8 @@ authors:
 - Zhenglin Li
 - Yuxi Cai
 - Yifei Ma
-- Chao He
 - Bowei Dong
+- Chao He
 links:
-  Status: "#"
+  DOI: https://doi.org/10.1103/6dld-jjwx
 ---
