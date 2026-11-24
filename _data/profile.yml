@@ -38,8 +38,8 @@ education:
   date: Oct. 2022 - Jul. 2026
 
 experience:
-- name: Agency for Science, Technology and Research (A*STAR), Singapore
-  url: https://www.a-star.edu.sg/
+- name: A*STAR Institute of Microelectronics (IME), Singapore
+  url: https://www.a-star.edu.sg/ime/
   logo: /assets/images/badges/astar-logo.png
   position: >-
     Research Assistant, supervised by Prof. Bowei Dong; programmable full-vectorial fields on chip, optical skyrmion applications, and integrated photonic device design
